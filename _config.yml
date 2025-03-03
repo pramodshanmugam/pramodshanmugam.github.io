@@ -1,0 +1,20 @@
+title: "Pramod Shanmugam Nagaraj"
+description: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
+author: "Pramod"
+theme: minima # or your chosen theme (like jekyll-theme-hacker, jekyll-theme-cayman, etc.)
+baseurl: "" 
+url: "https://pramodshanmugam.github.io" # or your custom domain
+markdown: kramdown
+
+# Optional social links you can use in your layouts
+social_links:
+  email: "mailto:pramod.shanmugam@gmail.com"
+  github: "https://github.com/pramodshanmugam"
+  linkedin: "https://www.linkedin.com/in/pramod-shanmugam-nagaraj-0ba56593"
+  resume: "#" # If you host your PDF resume somewhere, place the link here
+
+# Build settings
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  .site-header {
+    background-color: #282828;
+    padding: 1rem;
+  }
+  
+  .site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  a {
+    color: #4cc9f0;
+  }
+  
+  a:hover {
+    color: #f72585;
+  }
+  
+  footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 1rem;
+  }
+  
