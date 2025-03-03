@@ -1,20 +1,26 @@
-title: "Pramod Shanmugam Nagaraj"
-description: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
-author: "Pramod"
-theme: minima # or your chosen theme (like jekyll-theme-hacker, jekyll-theme-cayman, etc.)
-baseurl: "" 
-url: "https://pramodshanmugam.github.io" # or your custom domain
-markdown: kramdown
+title: Pramod Shanmugam Nagaraj
+tagline: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
+description: "Portfolio site showcasing my projects, experience, and blog posts."
+url: "https://<your-username>.github.io" # or your custom domain
+baseurl: ""
 
-# Optional social links you can use in your layouts
-social_links:
-  email: "mailto:pramod.shanmugam@gmail.com"
-  github: "https://github.com/pramodshanmugam"
-  linkedin: "https://www.linkedin.com/in/pramod-shanmugam-nagaraj-0ba56593"
-  resume: "#" # If you host your PDF resume somewhere, place the link here
+# Author settings
+author:
+  name: "Pramod Shanmugam Nagaraj"
+  avatar: "/assets/img/avatar.png" # Path to your profile image
+  bio: "MS in Computer Science @ Wayne State University. Building scalable AI/ML solutions."
+  location: "Detroit, MI"
+  email: "pramod.shanmugam@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/pramodshanmugam"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/pramod-shanmugam-nagaraj-0ba56593"
+    - label: "Resume"
+      icon: "fas fa-file-alt"
+      url: "#"
 
-# Build settings
-exclude:
-  - "README.md"
-  - "Gemfile"
-  - "Gemfile.lock"
+# Theme settings
+theme_mode: dark
