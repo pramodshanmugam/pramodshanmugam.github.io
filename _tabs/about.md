@@ -1,8 +1,9 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: About
+icon: fas fa-user
+order: 1
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I’m **Pramod Shanmugam Nagaraj**, currently pursuing an MS in Computer Science at Wayne State University. 
+My focus areas include AI/ML, microservices, and scalable data pipelines.

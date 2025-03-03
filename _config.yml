@@ -1,13 +1,13 @@
 title: Pramod Shanmugam Nagaraj
 tagline: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
 description: "Portfolio site showcasing my projects, experience, and blog posts."
-url: "https://<your-username>.github.io" # or your custom domain
+url: "https://pramodshanmugam.github.io" # Replace with your actual URL
 baseurl: ""
 
 # Author settings
 author:
   name: "Pramod Shanmugam Nagaraj"
-  avatar: "/assets/img/avatar.png" # Path to your profile image
+  avatar: "/assets/img/avatar.png"
   bio: "MS in Computer Science @ Wayne State University. Building scalable AI/ML solutions."
   location: "Detroit, MI"
   email: "pramod.shanmugam@gmail.com"
@@ -23,4 +23,15 @@ author:
       url: "#"
 
 # Theme settings
+theme: jekyll-theme-chirpy
+
 theme_mode: dark
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+
+collections:
+  tabs:
+    output: true
