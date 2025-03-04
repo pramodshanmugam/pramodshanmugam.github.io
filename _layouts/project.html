@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to your main stylesheet (adjust path if needed) -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <!-- Optionally, include a custom stylesheet for projects -->
+  <link rel="stylesheet" href="{{ '/assets/css/project.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="project-date">{{ page.date | date: "%B %Y" }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+  <section class="project-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </section>
+  {% endif %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% if page.tags %}
+  <footer>
+    <p><strong>Technologies:</strong>
+      {% for tag in page.tags %}
+        <span class="project-tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  </footer>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,39 @@
+title: Pramod Shanmugam Nagaraj
+tagline: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
+description: "Portfolio site showcasing my projects, experience, and blog posts."
+url: "https://pramodshanmugam.github.io" # Replace with your actual URL
+baseurl: ""
+
+# Author settings
+author:
+  name: "Pramod Shanmugam Nagaraj"
+  avatar: "/assets/img/avatar.png"
+  bio: "MS in Computer Science @ Wayne State University. Building scalable AI/ML solutions."
+  location: "Detroit, MI"
+  email: "pramod.shanmugam@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/pramodshanmugam"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/pramod-shanmugam-nagaraj-0ba56593"
+    - label: "Resume"
+      icon: "fas fa-file-alt"
+      url: "#"
+
+avatar: "/assets/img/avatar.jpeg"
+# Theme settings
+theme: jekyll-theme-chirpy
+
+theme_mode: dark
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+
+collections:
+  tabs:
+    output: true
+
