@@ -15,13 +15,11 @@ We then display each project in a card-like layout.
 <div class="project-list">
   {% for post in project_posts %}
   <div class="project-card">
-    <a href="{{ post.url | relative_url }}">
-      {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-      {% endif %}
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.excerpt }}</p>
-    </a>
+    <a href="{{ post.url | relative_url }}" class="project-link"></a>
+    {% if post.image %}
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="project-img">
+    {% endif %}
+    <h2>{{ post.title }}</h2>
   </div>
   {% endfor %}
 </div>
