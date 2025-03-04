@@ -26,10 +26,9 @@ avatar: "/assets/img/avatar.jpeg"
 # Theme settings
 theme: jekyll-theme-chirpy
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme_mode: dark
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
 
