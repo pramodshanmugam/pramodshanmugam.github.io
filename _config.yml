@@ -2,7 +2,7 @@ title: Pramod Shanmugam Nagaraj
 tagline: "Software Engineer | Full Stack Developer | AI/ML Enthusiast"
 description: "Portfolio site showcasing my projects, experience, and blog posts."
 url: "https://pramodshanmugam.github.io" # Replace with your actual URL
-baseurl: "pramodshanmugam.github.io"
+baseurl: ""
 
 # Author settings
 author:
